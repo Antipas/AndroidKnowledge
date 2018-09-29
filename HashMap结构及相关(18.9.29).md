@@ -66,9 +66,13 @@
     * TreeMap: 通过一个红黑树实现对数据的存放和查找。
 4. ArrayMap
     * Android自己优化的一个数据结构，通过两个数组存放数据，一个数组存放HashCode，一个数组以 {K1, V1, K2, V2, ..., Kn, Vn} 的方式存放数据。
-    * 空间换时间
+    * 牺牲时间换空间。
     * ArrayMap是有序的，每次查找的时候通过二分法进行查找，效率高，但是插入速率由于要进行排序所以速率低。
-    * 当数据量少的时候选用ArrayMap更合适因为内存消耗少，数据量大时用HashMap合适
+    * 处理哈希冲突：以该key为中心点，分别上下展开，逐个去对比查找。
+    * ArrayMap对于hashes.length为4和8的两种情况会进行缓存。在分配的时候，如果需要分配这两种大小的数组，就可以直接从缓存中取得，否则，就直接new两个数组。
+    * 有自动收缩数组空间的功能。
+    * 当数据量少的时候选用ArrayMap更合适因为内存消耗少，数据量大时用HashMap合适。
+    * [源码分析](https://www.jianshu.com/p/1fb660978b14)
 
     
 [补充](https://www.cnblogs.com/beatIteWeNerverGiveUp/p/5709841.html)

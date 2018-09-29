@@ -1,7 +1,7 @@
 1. HashMap的基础数据结构：数组链表
-    * HashMap的长度固定为2的n次方，[原因]
-    * jdk1.8.* 的时候，HashMap的实现进行过升级，之前都是用链表的形式进行存放Entry，现在通过红黑树进行存放，提升了查找的效率的存放的效率。
-    * 扩容：申请一个长度为两倍的新的数组，然后复制过去[待深入]
+    * HashMap的长度固定为2的n次方，是为了在计算桶位索引值h & (len-1）低位是1。[原因](https://www.cnblogs.com/chengxiao/p/6059914.html#t3)
+    * jdk1.8.* 的时候，HashMap的实现进行过升级，之前都是用链表的形式解决哈希冲突，新版会判断当链表长度超过一个阈值之后把链表内容进行树化（红黑树）
+    * 扩容：申请一个长度为两倍的新的数组，然后重新计算桶位索引值，再复制过去。相对于ArrayMap的数组拷贝这里更小号内存[待深入]
 2. HashTable和ConcurrentHashMap
     * 与HashMap的区别：HashMap线程不安全，而这两个线程安全
     * 线程锁：
@@ -66,4 +66,9 @@
     * TreeMap: 通过一个红黑树实现对数据的存放和查找。
 4. ArrayMap
     * Android自己优化的一个数据结构，通过两个数组存放数据，一个数组存放HashCode，一个数组以 {K1, V1, K2, V2, ..., Kn, Vn} 的方式存放数据。
+    * 空间换时间
     * ArrayMap是有序的，每次查找的时候通过二分法进行查找，效率高，但是插入速率由于要进行排序所以速率低。
+    * 当数据量少的时候选用ArrayMap更合适因为内存消耗少，数据量大时用HashMap合适
+
+    
+[补充](https://www.cnblogs.com/beatIteWeNerverGiveUp/p/5709841.html)

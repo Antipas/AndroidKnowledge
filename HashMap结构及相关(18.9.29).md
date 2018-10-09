@@ -7,6 +7,7 @@
     * 线程锁：
         * HashTable通过synchronized关键词修饰方法，将整块的方法上锁；
         * ConcurrentHashMap的Node对Value和next添加了volatile形容词进行线程锁
+        * 
             ``` java
             static class Node<K,V> implements Map.Entry<K,V> {
                 final int hash;
@@ -59,6 +60,7 @@
                 s.writeObject(null);
             }
             ```
+    * ConcurrentHashMap在JDK1.8后的改动：使用CAS操作替代分段锁。如果该桶位里有元素（有冲突元素）则使用synchronize在链表头加锁然后继续操作。
 3. LinkedHashMap & TreeMap
     * 与HashMap的区别：都是有序的。
     * LinkedHashMap: 继承了HashMap，数据结构一样，不过链表是双向链表，Entry<K,V>中增加了Entry<K,V> before & Entry<K,V> after。同时，有个accessOrder属性控制排列顺序，true表示最近最少使用次序，false表示插入顺序。
@@ -76,3 +78,5 @@
 
     
 [补充](https://www.cnblogs.com/beatIteWeNerverGiveUp/p/5709841.html)
+
+[这个挺全面](https://www.jianshu.com/p/939b8a672070)

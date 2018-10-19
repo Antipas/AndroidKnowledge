@@ -60,7 +60,8 @@
                 s.writeObject(null);
             }
             ```
-    * ConcurrentHashMap在JDK1.8后的改动：使用CAS操作替代分段锁。如果该桶位里有元素（有冲突元素）则使用synchronize在链表头加锁然后继续操作。
+    * ConcurrentHashMap在JDK1.8后的改动：使用CAS操作替代分段锁。如果该桶位里有元素（有冲突元素）则使用synchronized在链表头加锁然后继续操作。
+    * 分段锁的劣势：如果需要加锁整个容器的话，需要获得所有的分段锁，比如扩容时，需要重新计算散列值分散到更大的桶。
 3. LinkedHashMap & TreeMap
     * 与HashMap的区别：都是有序的。
     * LinkedHashMap: 继承了HashMap，数据结构一样，不过链表是双向链表，Entry<K,V>中增加了Entry<K,V> before & Entry<K,V> after。同时，有个accessOrder属性控制排列顺序，true表示最近最少使用次序，false表示插入顺序。

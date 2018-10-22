@@ -12,10 +12,12 @@ Java
 	* [JVM内存结构](https://github.com/Antipas/AndroidKnowledge/blob/master/JVM%e5%86%85%e5%ad%98%e7%bb%93%e6%9e%84+.png)  [文章](http://www.importnew.com/27454.html)
 	* [垃圾回收](https://github.com/Antipas/AndroidKnowledge/blob/master/%e5%9e%83%e5%9c%be%e5%9b%9e%e6%94%b6.png)  [文章1](http://www.importnew.com/26383.html) [文章2](http://www.importnew.com/16173.html)
 	* [内存优化](https://github.com/Antipas/AndroidKnowledge/blob/master/%E5%86%85%E5%AD%98%E4%BC%98%E5%8C%96.md)
+	* [类加载](https://github.com/Antipas/AndroidKnowledge/blob/master/%E7%B1%BB%E5%8A%A0%E8%BD%BD.md)
 
 * [线程](https://github.com/Antipas/AndroidKnowledge/blob/master/%E7%BA%BF%E7%A8%8B.md)
 * [锁机制](https://github.com/Antipas/AndroidKnowledge/blob/master/%E9%94%81%E6%9C%BA%E5%88%B6.md)
 * [Synchronized 和 ReentrantLock](https://github.com/Antipas/AndroidKnowledge/blob/master/synchronized%20%E5%92%8C%20ReentrantLock.md)
+* [Happen-Before](https://github.com/Antipas/AndroidKnowledge/blob/master/happen-before.md)
 
 Android
 =========
@@ -24,6 +26,8 @@ Android
 * [ARouter](https://github.com/Antipas/AndroidKnowledge/blob/master/ARouter.md)
 
 * [Activity栈](https://github.com/Antipas/AndroidKnowledge/blob/master/Activity%E6%A0%88.md)
+
+* [Activity启动](https://github.com/Antipas/AndroidKnowledge/blob/master/Activity%E5%90%AF%E5%8A%A8.md)
 
 
 设计模式

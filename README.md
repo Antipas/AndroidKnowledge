@@ -28,7 +28,17 @@ Android
 
 * [Activity栈](https://github.com/Antipas/AndroidKnowledge/blob/master/Activity%E6%A0%88.md)
 
-* [Activity启动](https://github.com/Antipas/AndroidKnowledge/blob/master/Activity%E5%90%AF%E5%8A%A8.md)
+* [Activity启动和Window](https://github.com/Antipas/AndroidKnowledge/blob/master/Activity%E5%90%AF%E5%8A%A8.md)
+
+* [Handler](https://github.com/Antipas/AndroidKnowledge/blob/master/Handler.md)
+
+* [IntentServcie](https://github.com/Antipas/AndroidKnowledge/blob/master/IntentServcie.md)
+
+
+* 组件化
+
+
+* 插件化热修复
 
 
 设计模式

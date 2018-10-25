@@ -20,6 +20,8 @@ Java
 
 * [Happen-Before](https://github.com/Antipas/AndroidKnowledge/blob/master/happen-before.md)
 
+* [CAS&AQS](https://github.com/Antipas/AndroidKnowledge/blob/master/CAS%26AQS.md)
+
 Android
 =========
 * [网络框架](https://github.com/Antipas/AndroidKnowledge/blob/master/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6.md)

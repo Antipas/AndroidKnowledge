@@ -17,7 +17,7 @@ Java
 
 * [线程](https://github.com/Antipas/AndroidKnowledge/blob/master/%E7%BA%BF%E7%A8%8B.md)
 * [锁机制](https://github.com/Antipas/AndroidKnowledge/blob/master/%E9%94%81%E6%9C%BA%E5%88%B6.md)
-* [Synchronized 和 ReentrantLock](https://github.com/Antipas/AndroidKnowledge/blob/master/synchronized%20%E5%92%8C%20ReentrantLock.md)
+
 * [Happen-Before](https://github.com/Antipas/AndroidKnowledge/blob/master/happen-before.md)
 
 Android
@@ -32,7 +32,9 @@ Android
 
 * [Handler](https://github.com/Antipas/AndroidKnowledge/blob/master/Handler.md)
 
-* [IntentServcie](https://github.com/Antipas/AndroidKnowledge/blob/master/IntentServcie.md)
+* [IntentServcie 和 JobIntentServcie](https://github.com/Antipas/AndroidKnowledge/blob/master/IntentServcie.md)
+
+* [Binder](https://github.com/Antipas/AndroidKnowledge/blob/master/Binder.md)
 
 
 * 组件化
@@ -45,3 +47,10 @@ Android
 ===
 * SOLID原则 [概括](https://github.com/Antipas/AndroidKnowledge/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.png) 
 * [单例](https://github.com/Antipas/AndroidKnowledge/blob/master/%E5%8D%95%E4%BE%8B.md)
+
+
+网络
+===
+* [TCP和UDP区别](https://github.com/Antipas/AndroidKnowledge/blob/master/HTTP.md)
+* HTTP 与 HTTPS 的差别
+* [Http 1.1 和 2.0 的特点和区别](https://github.com/Antipas/AndroidKnowledge/blob/master/TCP%E5%92%8CUDP.md)

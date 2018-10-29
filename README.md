@@ -6,6 +6,8 @@ Java
 
 * [HashMap](https://github.com/Antipas/AndroidKnowledge/blob/master/HashMap%E7%BB%93%E6%9E%84%E5%8F%8A%E7%9B%B8%E5%85%B3(18.9.29).md)
 
+* [LruCache](https://github.com/Antipas/AndroidKnowledge/blob/master/LruCache.md)
+
 * [线程池](https://github.com/Antipas/AndroidKnowledge/blob/master/%E7%BA%BF%E7%A8%8B%E6%B1%A0.md)
 
 * JVM相关

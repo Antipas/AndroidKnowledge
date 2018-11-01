@@ -27,6 +27,8 @@ Java
 
 * [注解](https://github.com/Antipas/AndroidKnowledge/blob/master/%E6%B3%A8%E8%A7%A3.md)
 
+* [总结](https://www.jianshu.com/p/c2c8f5019c8f)
+
 Android
 =========
 * [网络框架](https://github.com/Antipas/AndroidKnowledge/blob/master/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6.md)
@@ -43,6 +45,9 @@ Android
 
 * [Binder](https://github.com/Antipas/AndroidKnowledge/blob/master/Binder.md)
 
+* [Bitmap](https://github.com/Antipas/AndroidKnowledge/blob/master/Bitmap.md)
+
+* [Glide](https://github.com/Antipas/AndroidKnowledge/blob/master/Glide.md)
 
 * 组件化
 

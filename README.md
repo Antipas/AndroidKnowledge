@@ -4,11 +4,14 @@ Java
 ===========
 * [Object](https://github.com/Antipas/AndroidKnowledge/blob/master/Java%20Object%E7%B1%BB%E6%96%B9%E6%B3%95)
 
+* [String](https://github.com/Antipas/AndroidKnowledge/blob/master/String.md)
+
 * [HashMap](https://github.com/Antipas/AndroidKnowledge/blob/master/HashMap%E7%BB%93%E6%9E%84%E5%8F%8A%E7%9B%B8%E5%85%B3(18.9.29).md)
 
 * [LruCache](https://github.com/Antipas/AndroidKnowledge/blob/master/LruCache.md)
 
 * [线程池](https://github.com/Antipas/AndroidKnowledge/blob/master/%E7%BA%BF%E7%A8%8B%E6%B1%A0.md)
+* 
 
 * JVM相关
 	* [JVM内存结构](https://github.com/Antipas/AndroidKnowledge/blob/master/JVM%e5%86%85%e5%ad%98%e7%bb%93%e6%9e%84+.png)  [文章](http://www.importnew.com/27454.html)

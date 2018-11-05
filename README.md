@@ -52,6 +52,8 @@ Android
 
 * [Glide](https://github.com/Antipas/AndroidKnowledge/blob/master/Glide.md)
 
+* [Rxjava](https://github.com/Antipas/AndroidKnowledge/blob/master/Rxjava)
+
 * 组件化
 
 

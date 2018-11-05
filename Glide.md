@@ -109,3 +109,17 @@ loadFromActiveResources()方法就是从activeResources这个HashMap当中取值
 
  * [文章1](https://www.jianshu.com/p/c555a4fe5fd1)
  * [文章2](https://blog.csdn.net/guolin_blog/article/details/54895665)
+
+
+## 与其他图片库对比
+
+
+1. Picasso和Glide的withi后面的参数不同
+	* Picasso.with(这里只能传入Context)
+	* Glide.with(可以传context，activity，fragment)
+2. 加载Gif图片（Picasso不能加载Gif图片，Glide可以加载Gif图片）
+3. 缓存策略和加载速度
+	* Picasso缓存的是全尺寸,而 Glide的缓存的更ImageView的尺寸相同.
+	* 调整ImageView大小,Picasso只缓存一个全尺寸,Glide则会为每种大小都缓存一次.
+
+4. Glide 的长处是处理大型的图片流，如 gif、video

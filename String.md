@@ -40,11 +40,11 @@ System.out.println(s == s2.intern());
 System.out.println(s1 == s2.intern()); 
 ```
 
-##常量概念
+## 常量概念
 像 static final 或 final 修饰的变量适用于常量替换，它们是在方法区里的常量池中的
 
 
-##intern
+## intern
 intern用来返回常量池中的某字符串，如果常量池中已经存在该字符串，则直接返回常量池中该对象的引用。否则，在常量池中加入该对象，然后 返回引用
 
 JDK1.7之后intern()如果在常量池里找不到，不会复制字符串过去而是生成对原字符串的引用

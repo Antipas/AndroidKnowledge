@@ -11,7 +11,7 @@ Java
 * [LruCache](https://github.com/Antipas/AndroidKnowledge/blob/master/LruCache.md)
 
 * [线程池](https://github.com/Antipas/AndroidKnowledge/blob/master/%E7%BA%BF%E7%A8%8B%E6%B1%A0.md)
-* 
+ 
 
 * JVM相关
 	* [JVM内存结构](https://github.com/Antipas/AndroidKnowledge/blob/master/JVM%e5%86%85%e5%ad%98%e7%bb%93%e6%9e%84+.png)  [文章](http://www.importnew.com/27454.html)
@@ -52,7 +52,7 @@ Android
 
 * [Glide](https://github.com/Antipas/AndroidKnowledge/blob/master/Glide.md)
 
-* [Rxjava](https://github.com/Antipas/AndroidKnowledge/blob/master/Rxjava)
+* [Rxjava](https://github.com/Antipas/AndroidKnowledge/blob/master/Rxjava.md)
 
 * 组件化
 
@@ -69,5 +69,5 @@ Android
 网络
 ===
 * [TCP和UDP区别](https://github.com/Antipas/AndroidKnowledge/blob/master/TCP%E5%92%8CUDP.md)
-* HTTP 与 HTTPS 的差别
+* [HTTP 与 HTTPS 的差别](https://github.com/Antipas/AndroidKnowledge/blob/master/HTTP_HTTPS.md)
 * [Http 1.1 和 2.0 的特点和区别](https://github.com/Antipas/AndroidKnowledge/blob/master/HTTP.md)

@@ -54,7 +54,7 @@ Android
 
 * [Rxjava](https://github.com/Antipas/AndroidKnowledge/blob/master/Rxjava.md)
 
-* 组件化
+* [组件化](https://github.com/Antipas/AndroidKnowledge/blob/master/%E7%BB%84%E4%BB%B6%E5%8C%96.md)
 
 
 * 插件化热修复

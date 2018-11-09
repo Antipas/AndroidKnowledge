@@ -54,6 +54,8 @@ Android
 
 * [Rxjava](https://github.com/Antipas/AndroidKnowledge/blob/master/Rxjava.md)
 
+* [APK](https://github.com/Antipas/AndroidKnowledge/blob/master/APK%E7%98%A6%E8%BA%AB.md)
+
 * 组件化
 
 

@@ -30,6 +30,8 @@ Java
 
 * [注解](https://github.com/Antipas/AndroidKnowledge/blob/master/%E6%B3%A8%E8%A7%A3.md)
 
+* [泛型](https://github.com/Antipas/AndroidKnowledge/blob/master/%E6%B3%9B%E5%9E%8B.md)
+
 * [总结](https://www.jianshu.com/p/c2c8f5019c8f)
 
 Android

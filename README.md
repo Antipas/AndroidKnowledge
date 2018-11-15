@@ -30,6 +30,8 @@ Java
 
 * [注解](https://github.com/Antipas/AndroidKnowledge/blob/master/%E6%B3%A8%E8%A7%A3.md)
 
+* [泛型](https://github.com/Antipas/AndroidKnowledge/blob/master/%E6%B3%9B%E5%9E%8B.md)
+
 * [总结](https://www.jianshu.com/p/c2c8f5019c8f)
 
 Android
@@ -60,7 +62,9 @@ Android
 
 * [其他总结](https://github.com/Antipas/AndroidKnowledge/blob/master/%E6%80%BB%E7%BB%93.md)
 
-* 组件化
+组件化
+=======
+* [组件化](https://github.com/Antipas/AndroidKnowledge/blob/master/%E7%BB%84%E4%BB%B6%E5%8C%96.md)
 
 
 * 插件化热修复

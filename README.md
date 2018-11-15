@@ -56,6 +56,10 @@ Android
 
 * [APK](https://github.com/Antipas/AndroidKnowledge/blob/master/APK%E7%98%A6%E8%BA%AB.md)
 
+* [EventBus](https://github.com/Antipas/AndroidKnowledge/blob/master/EventBus%E5%8E%9F%E7%90%86.md)
+
+* [其他总结](https://github.com/Antipas/AndroidKnowledge/blob/master/%E6%80%BB%E7%BB%93.md)
+
 * 组件化
 
 

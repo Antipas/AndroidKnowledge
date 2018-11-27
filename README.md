@@ -60,6 +60,8 @@ Android
 
 * [EventBus](https://github.com/Antipas/AndroidKnowledge/blob/master/EventBus%E5%8E%9F%E7%90%86.md)
 
+* [动画](https://github.com/Antipas/AndroidKnowledge/blob/master/%E5%8A%A8%E7%94%BB.md)
+
 * [其他总结](https://github.com/Antipas/AndroidKnowledge/blob/master/%E6%80%BB%E7%BB%93.md)
 
 组件化

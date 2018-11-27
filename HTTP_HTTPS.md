@@ -19,3 +19,11 @@ HTTPS的新特效：
 
 [文章](https://www.cnblogs.com/wqhwe/p/5407468.html)
 
+
+
+## Charles 抓取https包
+
+Charles作为一个中继节点，当浏览器和服务器通信时，Charles接收服务器的证书，但动态生成一张证书发送给浏览器，也就是说Charles作为中间代理在浏览器和服务器之间通信，所以通信的数据可以被Charles拦截并解密。由于Charles更改了证书，浏览器校验不通过会给出安全警告，必须安装Charles的证书后才能进行正常访问。这样也可以保证HTTPS的安全性。
+
+[有图说得清楚](https://www.jianshu.com/p/405f9d76f8c4)
+

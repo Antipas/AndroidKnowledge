@@ -68,4 +68,5 @@ ViewRootImpl 是一很重要的类，类似 ApplicationThread 负责跟AmS通信
 
 * [Activity WMS ViewRootImpl三者关系](https://blog.csdn.net/kc58236582/article/details/52088224)
 * [Android Window 机制探索](https://blog.csdn.net/qian520ao/article/details/78555397)
+* [解析Activity、Window、View三者关系](https://www.jianshu.com/p/aa1ffb414f43)
 

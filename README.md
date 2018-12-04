@@ -79,6 +79,10 @@ Android
 * SOLID原则 [概括](https://github.com/Antipas/AndroidKnowledge/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.png) 
 * [单例](https://github.com/Antipas/AndroidKnowledge/blob/master/%E5%8D%95%E4%BE%8B.md)
 
+[架构](https://github.com/googlesamples/android-architecture-components)
+===
+* MVP
+* [MVVM](https://github.com/Antipas/AndroidKnowledge/blob/master/MVVM.md)
 
 网络
 ===

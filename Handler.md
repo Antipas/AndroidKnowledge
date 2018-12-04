@@ -133,5 +133,6 @@ public class HandlerActionQueue {
 # 问题
 * 如果在onCreate里想要获得view的正确宽高应该用view.post还是handler.post ？
 * [解析](https://www.cnblogs.com/dasusu/p/8047172.html)
+* [非 UI 线程能invalidate么？](https://www.jianshu.com/p/753441fcbad2)
 
 

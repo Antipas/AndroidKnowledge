@@ -38,3 +38,4 @@ Android AOP就是通过预编译方式和运行期动态代理实现程序功能
 * [三者区别](https://www.jianshu.com/p/dca3e2c8608a)
 * 除此之外还有java的动态代理机制。Java 原生API，运行时期生成字节码注入到JVM里，但是只能hook接口。
 * [总结](https://www.jianshu.com/p/e7df86693647)
+* [Hunter、总结](http://quinnchen.me/2018/09/13/2018-09-13-asm-transform/)

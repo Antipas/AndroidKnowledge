@@ -50,6 +50,8 @@ Bitmap
 * Bitmap.compress()。**通过它压缩的图片文件大小会变小，但是解码成bitmap后占得内存是不变的。**
 * Bitmap.recycle() 回收了哪部分的内存？
 * [文章](https://www.jianshu.com/p/e49ec7d053b3)
+* `decodeResource` `decodeStream` `decodeByteArray` 速度分析、使用场景分析
+* [探索Bitmap使用姿势](https://lizhaoxuan.github.io/2017/07/11/%E6%8E%A2%E7%B4%A2Bitmap%E4%BD%BF%E7%94%A8%E5%A7%BF%E5%8A%BF)
 
 
 # 大图展示

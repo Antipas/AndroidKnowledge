@@ -100,3 +100,4 @@ Android
 * [包体积优化](https://github.com/Antipas/AndroidKnowledge/blob/master/geektime/%E5%8C%85%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96.md)
 * [UI渲染优化](https://github.com/Antipas/AndroidKnowledge/blob/master/geektime/UI%E6%B8%B2%E6%9F%93%E4%BC%98%E5%8C%96.md)
 * [编译](https://github.com/Antipas/AndroidKnowledge/blob/master/geektime/%E7%BC%96%E8%AF%91.md)
+* [编译插桩](https://github.com/Antipas/AndroidKnowledge/blob/master/geektime/%E7%BC%96%E8%AF%91%E6%8F%92%E6%A1%A9.md)

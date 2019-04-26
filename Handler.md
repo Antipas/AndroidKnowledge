@@ -136,3 +136,6 @@ public class HandlerActionQueue {
 * [非 UI 线程能invalidate么？](https://www.jianshu.com/p/753441fcbad2)
 
 
+参考
+==
+[Handler 源码解析](https://www.jianshu.com/p/13c8a66d3b5c)
